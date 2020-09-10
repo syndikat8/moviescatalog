@@ -1,0 +1,49 @@
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #483D8B;
+    width: 100%;
+}
+
+.container {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.title {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 1024px) {
+    .title {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 950px) {
+    .title {
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 740px) {
+    .title {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .title {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .title {
+        font-size: 12px;
+    }
+}
+

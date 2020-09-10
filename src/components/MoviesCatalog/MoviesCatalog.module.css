@@ -1,0 +1,25 @@
+.moviesCatalog {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.image {
+  width: 465px;
+  height: 512px;
+}
+
+@media screen and (max-width: 950px) {
+  .image {
+    width: 350px;
+    height: 422px;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .image {
+    width: 200px;
+    height: 272px;
+  }
+}

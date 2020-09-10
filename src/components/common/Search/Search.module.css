@@ -1,0 +1,28 @@
+.search {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 55%;
+}
+
+.input {
+  width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+  .search {
+    width: 45%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .search {
+    width: 35%
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .search {
+    width: 30%
+  }
+}

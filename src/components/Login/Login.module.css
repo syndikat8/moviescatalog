@@ -1,0 +1,35 @@
+.login {
+    display: flex;
+}
+
+.name {
+    margin-left: 10px;
+    font-weight: 600;
+}
+
+.triangle {
+    border-radius: 5px;
+    position: relative;
+    color: #fff;
+}
+
+.triangle:after {
+    content: '';
+    position: absolute;
+    left: 5px;
+    bottom: 0;
+    border: 5px solid transparent;
+    border-top: 8px solid #00BFFF;
+}
+
+@media screen and (max-width: 740px) {
+    .name {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .name {
+        font-size: 10px;
+    }
+}

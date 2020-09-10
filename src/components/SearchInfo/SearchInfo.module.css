@@ -1,0 +1,14 @@
+.searchInfo {
+  display: flex;
+  flex-wrap: wrap;
+  width: 80%;
+  font-size: 25px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+.searchInfoElement {
+  margin-right: 10px;
+}
+
+
